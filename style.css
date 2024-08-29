@@ -1,0 +1,8 @@
+/* fix the canvas to the window, and place it behind the content */
+
+canvas {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
