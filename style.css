@@ -8,9 +8,15 @@ canvas {
     z-index: -1;
 }
 
+nav {
+    background-color: white;
+    padding: 2rem;
+    max-width: 150px;
+}
+
 .title {
     font-family: "Rubik Mono One", monospace;
-    font-size: clamp(6rem, 2rem + 10vmin, 16rem);
+    /* font-size: clamp(6rem, 2rem + 10vmin, 8rem); */
     letter-spacing: 1px;
     color: white;
     opacity: 0.9;
