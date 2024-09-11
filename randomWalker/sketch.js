@@ -26,14 +26,14 @@ class RandomWalker {
     this.prevX = this.x;
     this.prevY = this.y;
     this.color = color(70, 70, 255)
+    this.speed = random(10, 20)
   }
 
   step() {
 
     this.prevX = this.x;
     this.prevY = this.y;
-    this.speed = random(2, 10)
-
+    
     let rX = random(-this.speed, this.speed);
     let rY = random(-this.speed, this.speed);
 
