@@ -1,0 +1,26 @@
+body {
+    /* background-color: lightgreen; */
+    margin: 0;
+}
+
+/* Position canvas in the center of the page with a box shadow */
+
+canvas {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 20px 30px -20px;
+}
+
+/* Force the canvas to be full screen by scaling up the canvas in CSS */
+canvas {
+    position: fixed;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover; /* this line forces the canvas to fill the space and crop itself as needed */
+}
